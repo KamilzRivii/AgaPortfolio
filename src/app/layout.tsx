@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Agnieszka Przybyła Portfolio",
   description: "Portfolio w Next.js + MUI",
   icons: {
-    icon: "/icons/ap_inicials.png",
+    icon: "/icons/ap_inicials.png?v=2",
     shortcut: "/icons/ap_inicials.png",
     apple: "/icons/ap_inicials.png",
   },
