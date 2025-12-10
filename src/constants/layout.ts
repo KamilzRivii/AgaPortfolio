@@ -1,0 +1,85 @@
+export const LAYOUT_CONSTANTS = {
+  DECORATIVE_BAR: {
+    WIDTH: 48,
+    HEIGHT: 400,
+  },
+  LINE: {
+    WIDTH: 80,
+    HEIGHT: 2,
+    TOP_OFFSET: 150,
+  },
+  LINE_DOT: {
+    WIDTH: 16,
+    HEIGHT: 16,
+  },
+  PROFILE_IMAGE: {
+    DESKTOP: 600,
+    TABLET: 520,
+    MOBILE: 450,
+  },
+  RADIUS: {
+    STANDARD: '50%',
+    ROUNDED: '24px',
+  },
+  ICON_ORBIT: {
+    RADIUS: 350,
+    CENTER_X: 310,
+    CENTER_Y: 300,
+    START_ANGLE: -50,
+    END_ANGLE: 50,
+  },
+  RESUME: {
+    MAX_WIDTH: 700,
+    SKILL_CARD_MIN_WIDTH: 250,
+    TIMELINE_LINE_WIDTH: 2,
+    TIMELINE_LINE_HEIGHT: 448,
+    TIMELINE_DOT_SIZE: 16,
+  },
+  MODAL: {
+    MAX_WIDTH: 800,
+    IMAGE_HEIGHT: 300,
+    ICON_SIZE: 30,
+  },
+  PROJECTS: {
+    MAX_WIDTH: 700,
+    MAX_WIDTH_TABLET: 610,
+    MAX_WIDTH_MOBILE: '100%',
+    SLIDER_HEIGHT: 460,
+    CARD_HEIGHT: 430,
+    IMAGE_HEIGHT: 300,
+    CONTENT_HEIGHT: 90,
+  },
+  CONTACT: {
+    MAX_WIDTH: 700,
+    ICON_SIZE: 150,
+    ICON_FONT_SIZE: 96,
+  },
+  SIDE_NAV: {
+    WIDTH_DESKTOP: 500,
+    WIDTH_TABLET: '100%',
+    IMAGE_SIZE_DESKTOP: 400,
+    IMAGE_SIZE_LAPTOP: 350,
+    IMAGE_SIZE_TABLET: 280,
+    IMAGE_SIZE_MOBILE: 250,
+    HEIGHT_MOBILE: 260,
+  },
+  ABOUT: {
+    MAX_WIDTH: 700,
+    TOP_OFFSET: 100,
+    SKILL_ICON_SIZE: 100,
+    VALUE_CIRCLE_SIZE: 160,
+  },
+  BREAKPOINTS: {
+    HIDE_BARS: 1550,
+    MOBILE_LAYOUT: 1085,
+    TABLET: 700,
+    SMALL_MOBILE: 500,
+  },
+} as const;
+
+export const COLORS = {
+  PRIMARY: '#FABB31',
+  DARK: 'black',
+  LIGHT: 'white',
+  MUTED: 'gray',
+} as const;
